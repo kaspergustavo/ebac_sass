@@ -47,7 +47,8 @@ header .container {
 section {
   padding: 56px 0;
 }
-section .products {
+
+.products {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 32.66%);
@@ -55,11 +56,13 @@ section .products {
   row-gap: 4%;
   width: 100%;
 }
-section .products .product-item img {
+
+.product-item img {
   width: 100%;
   border-radius: 16px;
 }
-section .products .product-item .product-button {
+
+.product-button {
   display: block;
   background-color: #33bd32;
   color: #fff;
@@ -69,7 +72,8 @@ section .products .product-item .product-button {
   margin-top: 8px;
   text-decoration: none;
 }
-section .products .product-item .product-button:hover {
+
+.product-button:hover {
   background-color: #4cd127;
 }
 
@@ -77,16 +81,16 @@ section .products .product-item .product-button:hover {
   .container {
     max-width: 80%;
   }
-  .product {
+  .products {
     grid-template-columns: repeat(2, 48.5%);
     column-gap: 3%;
   }
 }
 @media screen and (max-width: 767px) {
-  .product {
+  .products {
     display: block;
   }
-  .product .product-item {
+  .products .product-item {
     margin-bottom: 32px;
   }
 }
