@@ -75,14 +75,14 @@ section {
         max-width: 80%;
     }
 
-    .product {
+    .products {
         grid-template-columns: repeat(2, 48.5%);
         column-gap: 3%;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .product {
+    .products {
         display: block;
 
         .product-item {
